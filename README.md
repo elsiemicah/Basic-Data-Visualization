@@ -1,8 +1,9 @@
 # Basic-Data-Visualization: E-commerce Customer Analysis
+
 Overview
 This project analyzes e-commerce customer data to identify key factors that impact yearly spending. By using basic data visualization techniques, we uncover insights into customer behavior and spending patterns. The findings can be used to develop strategies for increasing customer engagement and maximizing revenue.
 
-Dataset
+Dataset: [E-commerce Customer Dataset](https://www.kaggle.com/datasets/srolka/ecommerce-customers)
 The dataset contains the following columns:
 
 Avg. Session Length: Average session time on the app/website in minutes.
@@ -13,47 +14,11 @@ Yearly Amount Spent: Total amount spent by the customer per year in USD.
 Key Insights
 Using data visualizations, the following insights were identified:
 
-Positive Correlation: A strong positive correlation between Length of Membership and Yearly Amount Spent.
-App Usage: Customers spending more time on the app also tend to spend more yearly.
-Distribution: The distribution of Yearly Amount Spent is fairly normal, with most customers clustered around a central spending range.
-Heatmap Analysis: Key correlations were found, confirming Length of Membership and Time on App as strong predictors of spending.
-Visualizations
-Scatter Plot: Relationship between Length of Membership and Yearly Amount Spent.
-Histogram: Distribution of Yearly Amount Spent.
-Box Plot: Comparison of Time on App and Yearly Amount Spent.
-Pair Plot: Relationships among multiple variables.
-Heatmap: Correlation matrix of numerical features.
-Getting Started
-Prerequisites
-Python 3.x
-Libraries: pandas, matplotlib, seaborn
-Installation
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/elsie/ecommerce-customer-analysis.git
-Install the required packages:
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Open the Jupyter notebook or Python script and run the code to explore the dataset and visualizations.
-Modify or expand on the analysis to explore additional insights.
-Project Structure
-plaintext
-Copy code
-ecommerce-customer-analysis/
-├── data/
-│   └── ecommerce_customers.csv     # Dataset
-├── images/
-│   └── plots/                      # Optional: saved plots
-├── notebooks/
-│   └── customer_analysis.ipynb     # Jupyter notebook
-├── README.md                       # Project description
-└── requirements.txt                # Required libraries
-Future Work
-Predictive Modeling: Develop a linear regression model to predict yearly spending based on customer data.
-Feature Engineering: Explore new features or interactions that may influence spending behavior.
+Jupyter Notebook: [Basic Data Visualization](https://www.kaggle.com/code/elsiemicah/basic-data-visualization)
+
+Through visualizations, including scatter plots, histograms, box plots, and correlation heatmaps, we identify the main features that impact customer spending. This analysis is useful for developing strategies to enhance customer engagement and boost revenue, as it provides a foundation for predicting high-value customers and informing targeted marketing efforts.
+
+
 License
-This project is licensed under the MIT License.
+MIT License.
 
